@@ -25,13 +25,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-j!#(uxjw9!w_&b21y+&qj$^zn^-gm^a9nh(oojw&_we-roed-t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    "localhost",
-    "127.0.0.1",
-    os.getenv("RENDER_EXTERNAL_HOSTNAME", ""),
-    "https://blog-backend-1-a8xw.onrender.com"  # Replace with your actual Render domain
+    # "localhost",
+    # "127.0.0.1",
+    # os.getenv("RENDER_EXTERNAL_HOSTNAME", ""),
+    # "https://blog-backend-1-a8xw.onrender.com"  # Replace with your actual Render domain
 ]
 
 
