@@ -29,6 +29,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['blog-backend-1-a8xw.onrender.com', 'localhost', '127.0.0.1']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://blog-backend-1-a8xw.onrender.com',  # Your Render domain
+    'http://localhost',                         # Localhost for development
+]
 
 
 # Application definition
